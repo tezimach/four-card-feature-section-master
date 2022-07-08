@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.bg-red {
+    background-color: hsla(0, 78%, 62%, 1);
+}
+
+.bg-sky {
+    background-color: hsla(180, 62%, 55%, 1);
+}
+
+.bg-orange {
+    background-color: hsla(34, 97%, 64%, 1);
+}
+
+.bg-blue {
+    background-color: hsla(212, 86%, 64%, 1);
+}
+
+.text-family {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: hsla(232, 12%, 34%, 1);
+}
+
+
+
+
+header {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: 80px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+}
+
+h2 {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 27px 0px 0px 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.104167px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0px 32px 0px 32px;
+}
+
+div {
+    width: 311px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.bg-shadow {
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.line {
+    width: 311px;
+    height: 3.55px;
+    border-radius: 360px 360px 0px 0px;
+}
+
+.supervisor-icon {
+    margin-top: 24px;
+    margin-left: 220px;
+    margin-bottom: 28px;
+}
+
+.team-builder-icon {
+    margin-left: 220px;
+    margin-bottom: 28px;
+}
+
+.karma-icon {
+    margin-left: 220px;
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+.calculator-icon {
+    margin-left: 220px;
+    margin-bottom: 28px;
+}
+
+.margin-down {
+    margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 1423px) {
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    div {
+        width: 350px;
+        margin: 0px 30px 30px 0px;
+    }
+
+    .line {
+        width: 350px;
+    }
+
+    .bg-shadow {
+        align-self: center;
+    }
+
+    .supervisor-icon {
+        margin-left: 255px;
+        margin-bottom: 28px;
+        margin-top: 43px;
+    }
+    
+    .team-builder-icon {
+        margin-left: 255px;
+        margin-bottom: 28px;
+        margin-top: 43px;
+    }
+    
+    .karma-icon {
+        margin-left: 255px;
+        margin-bottom: 28px;
+        margin-top: 43px;
+    }
+    
+    .calculator-icon {
+        margin-left: 255px;
+        margin-bottom: 28px;
+        margin-top: 43px;
+    }
+}
